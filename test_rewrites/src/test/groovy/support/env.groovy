@@ -22,7 +22,7 @@ if(System.getenv("CUCUMBER_ENV") == "test") {
 } else if(System.getenv("CUCUMBER_ENV") == "www") {
 	BaseUrl = "https://www.ssb.no"
 } else {
-	BaseUrl = "https://www.qa.ssb.no"
+	BaseUrl = "https://www.utv.ssb.no"
 }
 
 Before() {
