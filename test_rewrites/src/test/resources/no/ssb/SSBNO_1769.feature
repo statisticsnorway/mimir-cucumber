@@ -16,7 +16,7 @@ Egenskap: Tester url-omskrivning for SSBNO-1769
 
   Scenario: Redirect tidligere nøkkeltallsider til en faktaside
     Gitt at jeg går på "/innvandring-og-innvandrere/nokkeltall/innvandring"
-    Så skal urlen være "/innvandring-og-innvandrere/faktaside/innvandring"
+    Så skal urlen være "/kake/faktaside/innvandring"
 
   Scenario: Redirect tidligere nøkkeltallsider til en faktaside
     Gitt at jeg går på "/utdanning/nokkeltall/utdanning"
